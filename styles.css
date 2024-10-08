@@ -1,1 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Change font for the whole page */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+section#contact {
+    background-color: #ffffff; /* White background for the contact section */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Maximum width for the section */
+    margin: auto; /* Center the section */
+}
+
+h2 {
+    color: #333333; /* Darker color for the header */
+}
+
+p {
+    color: #666666; /* Gray color for paragraphs */
+}
+
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    margin-top: 20px; /* Space above the footer */
+    text-align: center; /* Center align text in footer */
+}
+
+footer p {
+    color: #666666; /* Gray color for footer text */
+}
 
